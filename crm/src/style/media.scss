@@ -1,0 +1,197 @@
+@media (max-width: 1200px) {
+    header {
+        width: 100%;
+        .container {
+            width: 80%;
+        }
+
+        img {
+            margin-right: 120px;
+        }
+    }
+    .main {
+        width: 100%;
+        .container {
+            width: 80%;
+        }
+        .about {
+            font-size: 46px;
+        }
+
+    }
+    .map {
+        width: 100%;
+        &__content {
+            display: block;
+        }
+        .container {
+
+            width: 80%;
+            iframe {
+                margin-top: 30px;
+                height: 300px;
+                width: 100%;
+            }
+        }
+    }
+    .buildings {
+        width: 100%;
+        .building {
+            &__name {
+                font-size: 26px;
+            }
+            &__description {
+                font-size: 16px;
+            }
+            &__button-full {
+                font-size: 15px;
+            }
+            img {
+                height: 300px;
+            }
+            &__content {
+                height: 340px;
+            }
+        }
+        .container {
+            width: 80%;
+        }
+    }
+    .hipark {
+        width: 100%;
+        .container {
+            width: 80%;
+        }
+    }
+    footer {
+        width: 100%;
+        .container {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        img {
+            max-width: 200px;
+            margin-right: 25px;
+        }
+    }
+    .main {
+        .about {
+            font-size: 36px;
+        }
+
+    }
+    .buildings {
+        width: 100%;
+        .building {
+            &__name {
+                font-size: 26px;
+            }
+            &__description {
+                font-size: 13px;
+            }
+            &__button-full {
+                min-width: 130px;
+                font-size: 11px;
+            }
+            img {
+                height: 250px;
+            }
+            &__content {
+                height: 340px;
+            }
+        }
+        .container {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        img {
+            max-width: 200px;
+            margin-right: 25px;
+        }
+    }
+    .main {
+        .about {
+            font-size: 36px;
+        }
+
+    }
+    .buildings {
+        width: 100%;
+        .building {
+            display: block;
+            &__name {
+                font-size: 26px;
+            }
+            &__description {
+                font-size: 13px;
+            }
+            &__button-full {
+                min-width: 130px;
+                font-size: 11px;
+                margin: 0 auto;
+            }
+            img {
+                height: 250px;
+                width: 300px;
+                display: flex;
+            }
+            &__content {
+                margin-top: 30px;
+                width: 100%;
+                height: 190px;
+            }
+        }
+        .container {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        img {
+            max-width: 130px;
+            margin-right: 25px;
+        }
+        .header__item {
+            font-size: 15px;
+        }
+    }
+
+    .main {
+        height: 600px;
+        .about {
+            font-size: 24px;
+        }
+
+    }
+
+    .hipark {
+        height: 400px;
+        &__button {
+            min-width: 110px;
+            font-size: 15px;
+            margin: 0 auto;
+        }
+    }
+
+    footer {
+        .itmo__logo {
+            height: 20px;
+            p {
+                font-size: 14px;
+            }
+        }
+        .footer__contacts {
+            font-size: 14px;
+        }
+    }
+}
