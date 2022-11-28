@@ -41,14 +41,7 @@ p {
 }
 
 
-.onHover {
-    transition: all 0.2s;
-    &:hover {
-        color: #f21f5b
-    }
-}
-
-.container {
+.search {
     position: relative;
     margin: 0 auto;
     width: 1140px;
