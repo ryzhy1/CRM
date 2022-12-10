@@ -1,4 +1,8 @@
 import MainPage from '../mainPage/MainPage';
+import Login from '../login/Login';
+import Employees from '../employees/Employees';
+import ApplicationsTable from '../application_table/ApplicationsTable';
+import Data from './Data';
 
 import {
     BrowserRouter as Router,
@@ -13,8 +17,9 @@ function App() {
 
     <Router>
         <Routes>
-            <Route path='/' element={<MainPage/>}/>
-            <Route path='/login' element={<MainPage/>}/>
+            <Route path='/' element={<Login/>}/>
+            <Route path='/requests' element={<MainPage children={<ApplicationsTable data={Data}/>}/>}/>
+            <Route path='/employees' element={<Employees/>}/>
         </Routes>
     </Router> )
 }

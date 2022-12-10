@@ -1,7 +1,13 @@
 .rectangle {
-
-    width: 800px;
-    height: 400px;
-    background: darkgrey;
+    position: absolute;
+    left: 24%;
+    top: 17%;
+    width: 70%;
+    background: #F1F1F1;
     border-radius: 20px;
+    padding: 50px;
+    .page-name {
+        font-size: 32px;
+        font-weight: 500;
+    }
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import "./GreyRectangle.scss";
-import Applications_table from "../application_table/Applications";
 
-const GreyRectangle = (props) => {
+const GreyRectangle = ({children, pageName}) => {
 	return (
 		<div className='rectangle'>
-			<Applications_table data = {props.data}/>
+			<div className="page-name">{pageName}</div>
+			{children}
 		</div>
 	);
 };

@@ -1,8 +1,8 @@
 import React from "react";
-import './Applications.scss'
-import RowTable from "../row_table/RowTable";
-const Applications_table = (props) => {
-    let table = props.data.applications_table.map(
+import './ApplicationsTable.scss'
+import RowTable from "../rowTable/RowTable";
+const ApplicationsTable = (props) => {
+    let table = props.data.map(
         obj => <RowTable name = {obj.name} date = {obj.date} topic = {obj.topic} />);
     return (
         <div className = 'header-name'>
@@ -20,4 +20,4 @@ const Applications_table = (props) => {
     );
 };
 
-export default Applications_table;
+export default ApplicationsTable;

@@ -1,5 +1,5 @@
 table {
-  width: 100%; /* Ширина таблицы */
+  height: 100%;
   background: white; /* Цвет фона таблицы */
   border-radius: 20px;
   border-collapse: collapse; /* Убираем двойные линии между ячейками */
@@ -8,5 +8,9 @@ table {
 td, th {
   font: inter;
   padding: 5px; /* Поля вокруг текста */
-  border: 2px solid darkgrey; /* Параметры рамки */
+  border-radius: 20px;
+  border: 2px solid #F1F1F1; /* Параметры рамки */
+}
+tr {
+  height: 80px;
 }

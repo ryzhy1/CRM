@@ -1,9 +1,9 @@
 import './header.scss'
 
-const Header = () => {
+const Header = (props) => {
     return (
         <header>
-            <p className="page__name">Заявки</p>
+            <p className="page__name">{props.name}</p>
             <input type="search" placeholder="Поиск"/>
         </header>
     )
