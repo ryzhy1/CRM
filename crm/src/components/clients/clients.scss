@@ -1,0 +1,41 @@
+.clients {
+    height: 100%;
+    &__fields {
+        float:left;
+        margin: 0 auto;
+        margin-right: 10px;
+        height: 100%;
+    }
+    &__field {
+        clear:both;
+        text-align:right;
+        line-height:50px;
+        label {
+            float:left;
+            padding-right: 20px;
+            font-size: 18px;
+        }
+        input {
+            width: 350px;
+        }
+    }
+    &__options {
+        display: flex;
+        flex-direction: column;
+        width: 215px;
+        align-items: center;
+        button {
+            font-size: 16px;
+            height: 50px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: 1px solid #000;
+            border-radius: 5px;
+            transition: 0.3s ease-in-out;
+            &:hover {
+                background-color: #3e8e41;
+                cursor: pointer;
+            }
+        }
+    }
+}
