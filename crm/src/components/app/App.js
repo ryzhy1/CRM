@@ -20,7 +20,7 @@ function App() {
     <Router>
         <Routes>
             <Route path='/' element={<Login/>}/>
-            <Route path='/requests' element={<MainPage children={<ApplicationsTable data={Data}/>} pageName={'Заявки'}/>}/>
+            <Route path='/requests' element={<MainPage children={<ApplicationsTable data={Data} pageName={'Входящие заявки'}/>} pageName={'Заявки'}/>}/>
             <Route path='/employees' element={<MainPage children={<Employees empData={EmpData}/>} pageName={'Сотрудники'}/>}/>
             <Route path='/clients' element={<MainPage children={<Clients data={Data}/>} pageName={'Клиенты'}/>}/>
         </Routes>

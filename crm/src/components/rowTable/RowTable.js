@@ -1,12 +1,12 @@
 import React from "react";
 import './RowTable.scss'
-const RowTable = (props) => {
+const RowTable = ({name, date, topic}) => {
     return (
             <tbody>
             <tr>
-                <th>{props.name}</th>
-                <th>{props.date}</th>
-                <th>{props.topic}</th>
+                <th>{name}</th>
+                <th>{date}</th>
+                <th>{topic}</th>
             </tr>
             </tbody>
 
