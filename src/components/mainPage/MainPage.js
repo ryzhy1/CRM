@@ -1,15 +1,14 @@
 import Header from "../header/Header"
 import Navbar from "../navbar/Navbar"
 import GreyRectangle from "../grey_rectangle/GreyRectangle";
-import ApplicationsTable from "../application_table/ApplicationsTable";
 
-const MainPage = (props) => {
+const MainPage = ({children, pageName}) => {
 
     return (
         <body>
-            <Header name={'Заявки'}/>
+            <Header name={pageName}/>
             <Navbar/>
-            <GreyRectangle children={<ApplicationsTable data={data}/>} pageName={'Входящие заявки'}/>
+            <GreyRectangle children={children}/>
         </body>
     )
 }
