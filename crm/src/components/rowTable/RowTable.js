@@ -1,6 +1,6 @@
 import React from "react";
 import './RowTable.scss'
-const RowTable = ({name, date, topic}) => {
+const RowTable = ({name, date, topic, key}) => {
     return (
             <tbody>
             <tr>

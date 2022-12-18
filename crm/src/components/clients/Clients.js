@@ -13,31 +13,31 @@ const Clients = ({data}) => {
             <div className="clients__fields">
                 <div className="clients__field">
                     <label>ФИО Ученика</label>
-                    <input type="text" placeholder="Тыкать тут"></input>
+                    <input type="text" placeholder="Введите информацию"></input>
                 </div>
                 <div className="clients__field">
                     <label>Телефон</label>
-                    <input type="text" placeholder="Тыкать тут"></input>
+                    <input type="text" placeholder="Введите информацию"></input>
                 </div>
                 <div className="clients__field">
                     <label>Почта</label>
-                    <input type="text" placeholder="Тыкать тут"></input>
+                    <input type="text" placeholder="Введите информацию"></input>
                 </div>
                 <div className="clients__field">
                     <label>Номер договора</label>
-                    <input type="text" placeholder="Тыкать тут"></input>
+                    <input type="text" placeholder="Введите информацию"></input>
                 </div>
                 <div className="clients__field">
                     <label>Филиал</label>
-                    <input type="text" placeholder="Тыкать тут"></input>
+                    <input type="text" placeholder="Введите информацию"></input>
                 </div>
                 <div className="clients__field">
                     <label>Статус ученика</label>
-                    <input type="text" placeholder="Тыкать тут"></input>
+                    <input type="text" placeholder="Введите информацию"></input>
                 </div>
                 <div className="clients__field">
                     <label>Отв. менеджер</label>
-                    <input type="text" placeholder="Тыкать тут"></input>
+                    <input type="text" placeholder="Введите информацию"></input>
                 </div>
             </div>
             <div className="clients__options">
